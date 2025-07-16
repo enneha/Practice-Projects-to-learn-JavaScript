@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #c880b7;
+  --accent-color: #fceef7;
+  --accent-color-darker: #ca60b1;
+}
+
+body {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: var(--accent-color);
+  padding: 3rem 4rem;
+  border-radius: 2rem;
+  box-shadow: 0px 5px 10px rgba(74, 32, 64, 0.2);
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.favorite-icon {
+  margin-left: 4rem;
+  border: none;
+  background: none;
+}
+
+button {
+  font-size: 1.5rem;
+}
+
+.filled {
+  color: var(--accent-color-darker);
+}

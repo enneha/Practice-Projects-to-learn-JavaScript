@@ -1,0 +1,53 @@
+:root {
+  --accent: #0077b6;
+  --accent2: #ffb703;
+}
+
+body {
+  background-color: var(--accent);
+  display: flex;
+  justify-content: center;
+}
+form {
+  background-color: white;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
+  max-width: 15rem;
+}
+
+h1 {
+  color: var(--red-color);
+}
+
+label {
+  font-weight: bold;
+}
+
+#unit {
+  min-height: 2rem;
+  font-size: 2rem;
+  max-width: 6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: var(--accent2);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  color: white;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+p {
+  font-weight: bold;
+  font-size: 2rem;
+}

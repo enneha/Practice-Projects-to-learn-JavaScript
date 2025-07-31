@@ -1,0 +1,65 @@
+:root {
+  --dice-accent: #f96262;
+  --accent-dark: #b83434;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 2rem;
+  background-color: #f96262;
+}
+.container {
+  background-color: white;
+  padding: 2rem 3rem;
+  margin: 2rem auto;
+  max-width: 50rem;
+  align-content: center;
+  text-align: center;
+  border-radius: 1rem;
+  border: #b83434 1rem solid;
+}
+
+#diceImg {
+  align-self: center;
+  margin-top: 1rem;
+}
+
+h1 {
+  color: var(--dice-accent);
+  margin: 1rem auto;
+}
+
+input {
+  width: 5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+label {
+  color: var(--accent-dark);
+}
+
+.btn {
+  background-color: var(--dice-accent);
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-bottom: 1rem;
+}
+.btn:hover {
+  background-color: var(--accent-dark);
+  transform: scale(1.02);
+}
+
+@media (max-width: 580px) {
+  .btn {
+    margin-top: 1rem;
+  }
+}
